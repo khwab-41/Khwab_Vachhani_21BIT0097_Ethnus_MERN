@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khwab_Vachhani__HTML_Task-4</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th:first-child {
+        white-space: nowrap;
+        padding: 5px;
+      }
+      h1 {
+        color: blue;
+      }
+      button{
+        margin: 15px;
+      }
+      .stretch{
+        width: 98%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <table>
+      <tr>
+        <th><label for="f_name">First Name</label></th>
+        <td><input type="text" name="first_name" id="f_name" class="stretch"/></td>
+      </tr>
+      <tr>
+        <th><label for="l_name">Last Name</label></th>
+        <td><input type="text" name="last_name" id="l_name" class="stretch"/></td>
+      </tr>
+      <tr>
+        <th><label for="email">Email</label></th>
+        <td><input type="text" name="email" id="email" class="stretch"/></td>
+      </tr>
+      <tr>
+        <th><label for="pass">Password</label></td>
+        <td><input type="password" id="pass" class="stretch"/></td>
+      </tr>
+      <tr>
+        <th><label for="repass">Re-type Password</label></td>
+        <td><input type="password" id="repass" class="stretch"/></td>
+      </tr>
+      <tr>
+        <th rowspan="2">Gender:</th>
+        <td>
+          <input type="radio" name="gender" value="male" id="m" />
+          <label for="m">Male</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="gender" value="female" id="fm" />
+          <label for="fm">Female</label>
+        </td>
+      </tr>
+      <tr>
+        <th><label for="age">Age:</label></th>
+        <td><input type="number" id="age" class="stretch"/></td>
+      </tr>
+      <tr>
+        <th><label for="pnum">Phone Number</label></th>
+        <td><input type="number" id="pnum" class="stretch"/></td>
+      </tr>
+      <tr>
+        <th><label for="addr">Address</label></th>
+        <td><textarea name="address" id="addr" cols="50" rows="5"></textarea></td>
+      </tr>
+      <tr>
+        <th><label for="state">State</label></th>
+        <td><input name="state" id="state" type="text" class="stretch" /></td>
+      </tr>
+      <tr>
+        <th><label for="country">Country</label></th>
+        <td><select name="country" id="country"><option value="default">Choose your Country</option><option value="ind">India</option><option value="rus">Russia</option></select></td>
+      </tr>
+      <tr>
+        <th><label for="lang">Languages Known</label></th>
+        <td>
+          <input type="checkbox" name="eng" id="eng">
+          <label for="eng">English</label>
+          <input type="checkbox" name="knd" id="knd">
+          <label for="knd">Kannada</label>
+          <input type="checkbox" name="hin" id="hin">
+          <label for="hin">Hindi</label>
+          <input type="checkbox" name="tel" id="tel">
+          <label for="tel">Telugu</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" name="decl" id="decl">
+          <label for="decl">Hearby I declare all the given details are true</label></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: right;">Login to <a href="#">Ethnus</a> website</td>
+      </tr>
+    </table>
+    <button type="submit">Register</button>
+  </body>
+</html>

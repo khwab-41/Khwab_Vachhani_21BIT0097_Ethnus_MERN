@@ -1,0 +1,71 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.group,
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  margin: 10px 0px;
+}
+
+.rem_cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.foot {
+  padding: 10px 0px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+img {
+  width: 250px;
+  margin: auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+.log_btn {
+  background-color: #4cb050;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 10px 0px;
+}
+
+.cancel {
+  background-color: #ed4534;
+  color: white;
+  border: #ed4534;
+  border-radius: 5px;
+  height: 40px;
+  margin: auto 0px;
+  padding: 0px 30px;
+  font-weight: bold;
+}
+
+input {
+  height: 30px;
+}
+input::placeholder {
+  padding: 5px;
+}

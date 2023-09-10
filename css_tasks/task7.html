@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khwab_Vachhani_CSS_task-7</title>
+    <link rel="stylesheet" href="./task7.css" />
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <table>
+          <tr>
+            <td><label for="name">Name: </label></td>
+            <td><input type="text" id="name" placeholder="your name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email: </label></td>
+            <td><input type="email" id="email" placeholder="your email" /></td>
+          </tr>
+          <tr>
+            <td><label for="pass">Password: </label></td>
+            <td><input type="password" id="pass" /></td>
+          </tr>
+          <tr>
+            <td><label for="num">Phone Number: </label></td>
+            <td><input type="number" id="num" /></td>
+          </tr>
+          <tr>
+            <td><label for="adr">Address: </label></td>
+            <td><input type="text" id="adr" /></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <div class="gen_outer">
+                <div class="gen">
+                  <label for="male">Male: </label
+                  ><input type="radio" name="m" id="male" />
+                </div>
+                <div class="gen">
+                  <label for="female">Female: </label
+                  ><input type="radio" name="fm" id="female" />
+                </div>
+                <div class="gen">
+                  <label for="other">Other: </label
+                  ><input type="radio" name="o" id="other" />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lang">Language: </label></td>
+            <td>
+              <select id="lang">
+                <option value="def">Select Language</option>
+                <option value="eng">English</option>
+                <option value="hin">Hindi</option>
+                <option value="man">Madarine</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="zip">Zip Code: </label></td>
+            <td><input type="number" id="zip" /></td>
+          </tr>
+          <tr>
+            <td><label for="abt">About: </label></td>
+            <td>
+              <textarea
+                name="about"
+                id="abt"
+                cols="20"
+                rows="2"
+                placeholder="Write about yourself..."
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button type="submit">Register</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

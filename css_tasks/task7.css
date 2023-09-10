@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.outer {
+  background-color: #a22b55;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.inner {
+  background-color: #75203f;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+td {
+  padding: 5px;
+  color: white;
+}
+
+input,
+select {
+  border: none;
+  height: 20px;
+}
+
+input::placeholder {
+  padding: 5px;
+}
+
+.gen {
+  display: flex;
+  align-items: center;
+}
+
+.gen_outer {
+  display: flex;
+  align-items: center;
+}
+
+textarea::placeholder {
+  font-size: smaller;
+}
+
+button {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+

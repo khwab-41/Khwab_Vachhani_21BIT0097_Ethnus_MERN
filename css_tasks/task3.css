@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th {
+  background-color: #04a96d;
+  color: #e8e9eb;
+  text-align: left;
+}
+
+td, th {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #e8e9eb;
+}
