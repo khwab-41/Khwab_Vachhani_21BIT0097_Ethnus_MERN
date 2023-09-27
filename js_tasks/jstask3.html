@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khwab_Vachhani_JS_Task-3</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin: 20px">
+      1st Number: <input type="number" id="numa" />
+    </div>
+    <div style="margin: 20px">
+      2nd Number: <input type="number" id="numb" />
+    </div>
+    <div class="btn_container">
+      <button type="button" onclick="mul()" style="margin: 10px">
+        Multiply
+      </button>
+      <button type="button" onclick="div()" style="margin: 10px">Divide</button>
+    </div>
+    <div>
+      The Result is:
+      <section id="ans"></section>
+    </div>
+    <script src="./jstask3.js"></script>
+  </body>
+</html>
