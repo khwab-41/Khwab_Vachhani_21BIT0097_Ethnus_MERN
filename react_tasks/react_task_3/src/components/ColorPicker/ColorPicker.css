@@ -1,0 +1,38 @@
+.innerContainer {
+  padding: 30px;
+  width: 80%;
+  height: 70%;
+  margin: 20px auto;
+  border: transparent solid;
+  border-radius: 30px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.342);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.innerRow {
+  width: 109% !important;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 1;
+}
+
+.colorButton {
+  width: 50px;
+  height: 50px;
+  border: transparent;
+  background-color: transparent;
+  box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.4), 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.pickaColor{
+    background-color: #4CB050;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.100);
+    color: white;
+    margin-top: 150px;
+    font-size: larger;
+}

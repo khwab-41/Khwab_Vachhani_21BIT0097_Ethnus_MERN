@@ -1,0 +1,17 @@
+#root {
+  margin: 0 auto;
+}
+
+.outer_container {
+  border: white solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px #0000004a;
+  box-shadow: 0 0 5px #0000004a;
+  padding: 10px;
+}
+
+TextArea {
+  width: 100%;
+  border: 1.5px solid black;
+  border-radius: 6px;
+}
