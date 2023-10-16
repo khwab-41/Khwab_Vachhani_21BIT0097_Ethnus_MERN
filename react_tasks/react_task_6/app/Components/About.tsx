@@ -41,14 +41,14 @@ const About = (props: Props) => {
         className="text-back_portfolio-light_text relative text-center w-50% mx-auto tracking-[2px] p-2"
       >
         Hello! As an undergraduate student who is passionate about tech and
-        entrepreneurship, I am eager to take on the world's most pressing
+        entrepreneurship, I am eager to take on the world&apos;s most pressing
         challenges through innovation and creativity. With a deep curiosity for
         emerging technologies and a love for problem-solving, I am always
         looking for ways to apply technical skills to create meaningful change.
         I am excited to connect with professionals who share my passion for
         innovation and collaboration, and I am open to exploring new
-        opportunities that allow me to make an impact. Let's connect and see
-        where our shared interests can take us.
+        opportunities that allow me to make an impact. Let&apos;s connect and
+        see where our shared interests can take us.
       </motion.div>
     </div>
   );
