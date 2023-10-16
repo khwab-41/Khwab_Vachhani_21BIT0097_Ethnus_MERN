@@ -39,3 +39,14 @@
 - [JS Task-6](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/js_tasks/jstask6.html)
 - [JS Task-7](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/js_tasks/jstask7.html)
 - [JS Task-8](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/js_tasks/jstask8.html)
+
+# React Tasks
+
+- [React Task-1](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_1)
+- [React Task-2](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_2)
+- [React Task-3](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_3)
+- [React Task-4](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_4)
+- [React Task-5](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_5)
+- [React Task-6](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_6)
+- [React Task-7](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_7)
+- [React Task-8](https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_8)
