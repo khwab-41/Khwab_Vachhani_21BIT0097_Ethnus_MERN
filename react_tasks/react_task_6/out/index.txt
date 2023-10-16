@@ -1,5 +1,5 @@
-1:HL["https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_6/out/_next/static/css/ca04eeeef63cfa53.css",{"as":"style"}]
-0:[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_6/out/_next/static/css/ca04eeeef63cfa53.css","precedence":"next"}]],["$L3",null]]]]
+1:HL["https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_6/out/assets/static/css/ca04eeeef63cfa53.css",{"as":"style"}]
+0:[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"https://khwab-41.github.io/Khwab_Vachhani_21BIT0097_Ethnus_MERN/react_tasks/react_task_6/out/assets/static/css/ca04eeeef63cfa53.css","precedence":"next"}]],["$L3",null]]]]
 4:I{"id":"9544","chunks":["272:static/chunks/webpack-3b91e7351643d5a2.js","667:static/chunks/2443530c-1902ae65bc5ec87f.js","139:static/chunks/139-7420e3a1d4564c79.js"],"name":"","async":false}
 5:I{"id":"99","chunks":["272:static/chunks/webpack-3b91e7351643d5a2.js","667:static/chunks/2443530c-1902ae65bc5ec87f.js","139:static/chunks/139-7420e3a1d4564c79.js"],"name":"","async":false}
 6:I{"id":"67","chunks":["330:static/chunks/330-b0aa4693493ee16f.js","931:static/chunks/app/page-0a9f22af4265ceb9.js"],"name":"","async":false}
